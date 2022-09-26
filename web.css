@@ -12,6 +12,7 @@
     width: 100%;
     font-family:  'Poppins', sans-serif;
     padding-top: 1%;
+    
     top: 0;
     border-radius: 10px;
     position: absolute;
@@ -425,9 +426,11 @@ whole width of the screen*/
 }
 #campus img{
     width: 100%;
+    
 }
 #column-campus{
     margin-bottom: 50px;
+    
     
 }
 
@@ -436,6 +439,7 @@ whole width of the screen*/
     overflow: hidden;
     border-radius: 8px;
     flex-basis: 32%;
+    display: flex;
     position: relative;
     
 }

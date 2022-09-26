@@ -313,6 +313,7 @@ a{
     #london{
         height: 100%;
     }
+   
 
 
 }
@@ -347,9 +348,15 @@ a{
     .offer1, .offer2, .offer3{
         width: 100%;
         margin-bottom: 20px;
+        height: 250px;
     }
     .offer1 p{
         width: 250px;
+        
+    }
+    .cont-text h1, .display, #phiso-cont h1, #column-campus h2, .fac-text h2{
+        font-size: 23px;
+        font-weight: bold;
         
     }
 
@@ -520,13 +527,16 @@ whole width of the screen*/
 #button{
     display: inline-block;
     border: 1px solid #f0a504;
-    padding: 8px 11px;
-    font-size: 16px;
+    padding: 8px 7px;
+    font-size: 13px;
     color: #fff;
     background: transparent;
 
     cursor: pointer;
     font-family:  'Poppins', sans-serif;
+}
+#connect{
+    margin-top: 70px;
 }
 
 #button:hover{
